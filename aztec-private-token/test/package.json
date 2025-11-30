@@ -1,0 +1,15 @@
+{
+  "name": "private-token-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "npx tsx payroll_test.ts"
+  },
+  "dependencies": {
+    "@aztec/aztec.js": "2.1.8",
+    "@aztec/accounts": "2.1.8",
+    "@aztec/noir-contracts.js": "2.1.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
