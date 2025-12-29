@@ -336,19 +336,19 @@ npm install @aztec/aztec.js@2.1.5 @types/node @aztec/accounts@2.1.5 typescript t
 ### tsconfig.json 생성
 
 ```
-  cat > /Users/kevin/aztec-private-token/tsconfig.json << 'EOF'
-  {
-    "compilerOptions": {
-      "target": "ES2022",
-      "module": "NodeNext",
-      "moduleResolution": "NodeNext",
-      "esModuleInterop": true,
-      "resolveJsonModule": true,
-      "strict": true,
-      "skipLibCheck": true
-    }
+cat > tsconfig.json << 'EOF'
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true
   }
-  EOF
+}
+EOF
 ```
 
 ### TypeScript 테스트 작성
